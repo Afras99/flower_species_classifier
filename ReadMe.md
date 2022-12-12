@@ -35,10 +35,11 @@ conda install numpy pandas matplotlib pil
 ```
 In order to intall Pytorch head over to the Pytorch site select your specs and follow the instructions given.
 
+
 ## Viewing the Jyputer Notebook
 In order to better view and work on the jupyter Notebook I encourage you to use [nbviewer](https://nbviewer.jupyter.org/) . You can simply copy and paste the link to this website and you will be able to edit it without any problem. Alternatively you can clone the repository using 
 ```
-git clone https://github.com/fotisk07/Image-Classifier/
+git clone https://github.com/Afras99/Image-Classifier/
 ```
 then in the command Line type, after you have downloaded jupyter notebook type
 ```
@@ -53,7 +54,7 @@ locate the notebook and run it.
   * Prints out current epoch, training loss, validation loss, and validation accuracy as the netowrk trains
   * Options:
     * Set direcotry to save checkpoints: ```python train.py data_dor --save_dir save_directory```
-    * Choose arcitecture (alexnet, densenet121 or vgg16 available): ```pytnon train.py data_dir --arch "vgg16"```
+    * Choose arcitecture (vgg19 or vgg16 available): ```pytnon train.py data_dir --arch "vgg19"```
     * Set hyperparameters: ```python train.py data_dir --learning_rate 0.001 --hidden_layer 4096 --epochs 20 ```
     * Use GPU for training: ```python train.py data_dir --gpu gpu```
     
@@ -68,7 +69,12 @@ locate the notebook and run it.
 In order for the network to print out the name of the flower a .json file is required. If you aren't familiar with json you can find information [here](https://www.json.org/). By using a .json file the data can be sorted into folders with numbers and those numbers will correspond to specific names specified in the .json file.
 
 ## Data and the json file
-The data used specifically for this assignemnt are a flower database are not provided in the repository as it's larger than what github allows. Nevertheless, feel free to create your own databases and train the model on them to use with your own projects. The structure of your data should be the following:\
+The data used specifically for this assignemnt are a flower database are not provided in the repository as it's larger than what github allows. Nevertheless, feel free to create your own databases and train the model on them to use with your own projects.
+
+Download the dataset for custom training
+[dataset](https://drive.google.com/drive/folders/1W0QI8FLvKdajF4nIVpNmMV95tz8d0_XN?usp=sharing)
+ 
+The structure of your data should be the following:\
 The data need to comprised of 3 folders, test, train and validate. Generally the proportions should be 70% training 10% validate and 20% test.\
 Inside the train, test and validate folders there should be folders bearing a specific number which corresponds to a specific category, clarified in the json file. For example if we have the image a.jpj and it is a rose it could be in a path like this /test/5/a.jpg and json file would be like this {...5:"rose",...}. Make sure to include a lot of photos of your catagories (more than 10) with different angles and different lighting conditions in order for the network to generalize better.
     
