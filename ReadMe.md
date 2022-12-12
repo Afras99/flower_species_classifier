@@ -103,4 +103,4 @@ Please read [CONTRIBUTING.md](https://github.com/fotisk07/Image-Classifier/blob/
 * **Afras Aboobacker P** - *Initial work* 
 * **Udacity** - *Final Project of the AI with Python Nanodegree*
 
-![alt text](https://github.com/Afras99/Image_Classifier/blob/main/udacity_nanodegree_graduation_certificate.pdf)
+![alt text](https://github.com/Afras99/Image_Classifier/blob/main/certificate-1.jpg)
