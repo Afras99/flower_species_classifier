@@ -54,7 +54,7 @@ locate the notebook and run it.
   * Options:
     * Set direcotry to save checkpoints: ```python train.py data_dor --save_dir save_directory```
     * Choose arcitecture (alexnet, densenet121 or vgg16 available): ```pytnon train.py data_dir --arch "vgg16"```
-    * Set hyperparameters: ```python train.py data_dir --learning_rate 0.001 --hidden_layer1 120 --epochs 20 ```
+    * Set hyperparameters: ```python train.py data_dir --learning_rate 0.001 --hidden_layer 4096 --epochs 20 ```
     * Use GPU for training: ```python train.py data_dir --gpu gpu```
     
 * Predict flower name from an image with ```predict.py``` along with the probability of that name. That is you'll pass in a single image ```/path/to/image``` and return the flower name and class probability
@@ -89,7 +89,7 @@ As you can see you have a wide selection of hyperparameters available and you ca
 * A small learning rate guarantees that the network will reach greater accuracies but the learning process will take longer
 * Densenet121 works best for images but the training process takes significantly longer than alexnet or vgg16
 
-*My settings were lr=0.001, dropoup=0.5, epochs= 15 and my test accuracy was 86% with densenet121 as my feature extraction model.
+*My settings were lr=0.001, dropoup=0.5, epochs= 12 and my test accuracy was 86% with vgg19 as my feature extraction model.
 
 ## Pre-Trained Network
 The checkpoint.pth file contains the information of a network trained to recognise 102 different species of flowers. I has been trained with specific hyperparameters thus if you don't set them right the network will fail. In order to have a prediction for an image located in the path /path/to/image using my pretrained model you can simply type ```python predict.py /path/to/image checkpoint.pth```
