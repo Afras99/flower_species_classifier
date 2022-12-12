@@ -103,5 +103,4 @@ Please read [CONTRIBUTING.md](https://github.com/fotisk07/Image-Classifier/blob/
 * **Afras Aboobacker P** - *Initial work* 
 * **Udacity** - *Final Project of the AI with Python Nanodegree*
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/fotisk07/Image-Classifier/blob/master/LICENSE) file for details
 ![alt text](https://github.com/fotisk07/Image-Classifier/blob/master/Certificate-1.jpg)
