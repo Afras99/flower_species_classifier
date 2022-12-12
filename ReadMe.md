@@ -72,7 +72,7 @@ In order for the network to print out the name of the flower a .json file is req
 The data used specifically for this assignemnt are a flower database are not provided in the repository as it's larger than what github allows. Nevertheless, feel free to create your own databases and train the model on them to use with your own projects.
 
 Download the dataset for custom training
-[dataset](https://drive.google.com/drive/folders/1W0QI8FLvKdajF4nIVpNmMV95tz8d0_XN?usp=sharing)
+[dataset](https://drive.google.com/drive/folders/1yDsBrB1F00urRuqjzAxVYEFt_oDs55Bv?usp=sharing)
  
 The structure of your data should be the following:\
 The data need to comprised of 3 folders, test, train and validate. Generally the proportions should be 70% training 10% validate and 20% test.\
