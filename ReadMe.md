@@ -36,7 +36,7 @@ conda install numpy pandas matplotlib pil
 In order to intall Pytorch head over to the Pytorch site select your specs and follow the instructions given.
 
 
-## Viewing the Jyputer Notebook
+## Viewing the Jupyter Notebook
 In order to better view and work on the jupyter Notebook I encourage you to use [nbviewer](https://nbviewer.jupyter.org/) . You can simply copy and paste the link to this website and you will be able to edit it without any problem. Alternatively you can clone the repository using 
 ```
 git clone https://github.com/Afras99/Image-Classifier/
